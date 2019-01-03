@@ -7,3 +7,5 @@ sudo cp scan-wifi.sh /usr/bin/scan-wifi
 sudo chmod +x /usr/bin/scan-wifi
 sudo cp ./ez-commit.py /usr/bin/ez-commit
 sudo chmod +x /usr/bin/ez-commit
+sudo cp ./ez-pypi.py /usr/bin/ez-pypi
+sudo chmod +x /usr/bin/ez-pypi
