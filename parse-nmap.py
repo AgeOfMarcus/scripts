@@ -21,8 +21,10 @@ def parse_rp(rp):
     else:
         ip = (ipl)
     # get portlist
-    pl0 = rp.split(' filtered ports\n')[1]
-    pl0 = pl0.split('\n')[1:]
+#    print(rp) #DEBUG
+#    pl0 = rp.split(' filtered ports\n')[1]
+#    pl0 = pl0.split('\n')[1:]
+    pl0 = rp.split("\n")
     res = {}
     for ln in pl0:
         words = ln.split()
