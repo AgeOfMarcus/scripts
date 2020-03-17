@@ -1,0 +1,2 @@
+#!/bin/bash
+bishop $(sha512sum "$@" | cut -f1 -d ' ')
