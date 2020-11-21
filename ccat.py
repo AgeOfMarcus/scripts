@@ -12,6 +12,7 @@ exts = {
 	"html":"html",
 	"js":"javascript",
 	"md":"markdown",
+	"json":"javascript",
 }
 
 fn = argv[-1]
