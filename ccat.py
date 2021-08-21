@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/python
+#!/usr/bin/env python3
 from rich.markdown import Markdown
 from rich.syntax import Syntax
 from rich import print
